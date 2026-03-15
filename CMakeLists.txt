@@ -42,7 +42,7 @@ target_link_libraries(imgui PUBLIC
 add_executable(Earth_Renderer_OpenGL
     src/main.cpp
     src/stb_image.cpp
-   "src/Window.cpp")
+   "src/Window.cpp" "src/Mesh.cpp")
 
 
 target_include_directories(Earth_Renderer_OpenGL PRIVATE
